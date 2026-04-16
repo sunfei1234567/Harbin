@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Harbin City Tourism Website - Explore the ice city of Harbin with its winter wonders, European architecture, and culinary culture">
+    <title>Harbin Ice City | Harbin Ice City</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Side Navigation -->
+    <aside class="side-nav" id="sideNav">
+        <div class="nav-brand">
+            <div class="brand-logo">
+                <img src="images/001.webp" alt="Harbin">
+            </div>
+            <div class="brand-text">
+                <span class="brand-en">HARBIN</span>
+                <span class="brand-cn">Ice City</span>
+            </div>
+        </div>
+        <nav class="nav-menu-vertical">
+            <a href="#intro" class="nav-dot active" data-section="intro">
+                <span class="dot"></span>
+                <span class="label">Prologue</span>
+            </a>
+            <a href="#winter" class="nav-dot" data-section="winter">
+                <span class="dot"></span>
+                <span class="label">Ice & Snow</span>
+            </a>
+            <a href="#architecture" class="nav-dot" data-section="architecture">
+                <span class="dot"></span>
+                <span class="label">Architecture</span>
+            </a>
+            <a href="#food" class="nav-dot" data-section="food">
+                <span class="dot"></span>
+                <span class="label">Taste</span>
+            </a>
+            <a href="#seasons" class="nav-dot" data-section="seasons">
+                <span class="dot"></span>
+                <span class="label">Seasons</span>
+            </a>
+            <a href="#history" class="nav-dot" data-section="history">
+                <span class="dot"></span>
+                <span class="label">History</span>
+            </a>
+        </nav>
+        <div class="nav-footer">
+            <div class="temp-display">
+                <i class="fas fa-thermometer-half"></i>
+                <span>-18°C</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- First Screen - Immersive Opening -->
+        <section class="fullscreen-section section-intro" id="intro"
+            style="background-image: url('images/002.jpg'); background-size: cover; background-position: center;">
+            <div class="ice-texture" style="background: rgba(10, 22, 40, 0.7);"></div>
+            <div class="content-wrapper">
+                <div class="intro-content">
+                    <div class="subtitle-line">
+                        <span class="line"></span>
+                        <span class="text">China · Heilongjiang</span>
+                        <span class="line"></span>
+                    </div>
+                    <h1 class="main-title">
+                        <span class="char">H</span>
+                        <span class="char">A</span>
+                        <span class="char">R</span>
+                        <span class="char">B</span>
+                        <span class="char">I</span>
+                        <span class="char">N</span>
+                    </h1>
+                    <p class="tagline">Oriental Moscow · Ice & Snow Fairy Tale World</p>
+                    <div class="scroll-hint">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                        <span>Scroll Down to Explore</span>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-elements">
+                <div class="float-item" style="--delay:0s;--x:10%;--y:20%">❄</div>
+                <div class="float-item" style="--delay:1s;--x:80%;--y:30%">❅</div>
+                <div class="float-item" style="--delay:2s;--x:20%;--y:70%">❆</div>
+                <div class="float-item" style="--delay:0.5s;--x:70%;--y:80%">❄</div>
+                <div class="float-item" style="--delay:1.5s;--x:50%;--y:50%">❅</div>
+            </div>
+        </section>
+
+        <!-- Second Screen - Ice & Snow Wonders (Diagonal Layout) -->
+        <section class="fullscreen-section section-winter" id="winter">
+            <div class="diagonal-bg"></div>
+            <div class="content-wrapper">
+                <div class="winter-layout">
+                    <div class="winter-text">
+                        <span class="section-num">01</span>
+                        <h2 class="section-title">Ice & Snow<br>Wonders</h2>
+                        <p class="section-desc">
+                            Every winter, Harbin transforms into a dreamy ice and snow kingdom. The Ice and Snow World
+                            uses 200,000 cubic meters of ice
+                            to build a crystal-clear fairy tale castle along the Songhua River.
+                        </p>
+                        <div class="stats-row">
+                            <div class="stat">
+                                <span class="num">200K</span>
+                                <span class="unit">Cubic Meters of Ice</span>
+                            </div>
+                            <div class="stat">
+                                <span class="num">60 Days</span>
+                                <span class="unit">Construction Period</span>
+                            </div>
+                        </div>
+                        <a href="#" class="explore-link">
+                            <span>Explore More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="winter-visual">
+                        <div class="image-stack">
+                            <div class="img-card main" style="background-image: url('images/003.jpg')">
+                            </div>
+                            <div class="img-card secondary" style="background-image: url('images/004.png')">
+                            </div>
+                            <div class="img-card tertiary" style="background-image: url('images/005.jpg')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third Screen - European Architecture (Horizontal Scrolling Cards) -->
+        <section class="fullscreen-section section-architecture" id="architecture">
+            <div class="arch-header">
+                <span class="section-num">02</span>
+                <h2 class="section-title">European Charm</h2>
+                <p class="section-subtitle">Architectural Poetry of Oriental Moscow</p>
+            </div>
+            <div class="arch-scroll-container">
+                <div class="arch-cards">
+                    <div class="arch-card">
+                        <div class="card-image" style="background-image: url('images/006.jpeg')">
+                        </div>
+                        <div class="card-info">
+                            <span class="card-tag">Byzantine</span>
+                            <h3>Saint Sophia Cathedral</h3>
+                            <p>The largest Eastern Orthodox church in the Far East, its onion domes have become a city
+                                symbol of Harbin</p>
+                        </div>
+                    </div>
+                    <div class="arch-card">
+                        <div class="card-image" style="background-image: url('images/007.jpg')">
+                        </div>
+                        <div class="card-info">
+                            <span class="card-tag">Historic District</span>
+                            <h3>Central Street</h3>
+                            <p>Asia's longest pedestrian street, featuring Renaissance, Baroque, and other European
+                                architectural styles</p>
+                        </div>
+                    </div>
+                    <div class="arch-card">
+                        <div class="card-image" style="background-image: url('images/008.png')">
+                        </div>
+                        <div class="card-info">
+                            <span class="card-tag">Russian</span>
+                            <h3>Russian Town</h3>
+                            <p>Exotic charm on Sun Island, experience the unique blend of Chinese and Russian culture
+                            </p>
+                        </div>
+                    </div>
+                    <div class="arch-card">
+                        <div class="card-image" style="background-image: url('images/009.webp')">
+                        </div>
+                        <div class="card-info">
+                            <span class="card-tag">Music</span>
+                            <h3>Harbin Grand Theatre</h3>
+                            <p>A masterpiece of modern architecture, acclaimed as one of China's most beautiful theatres
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator-h">
+                <span>Swipe to Explore</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </section>
+
+        <!-- Fourth Screen - Food (Circular Cards) -->
+        <section class="fullscreen-section section-food" id="food">
+            <div class="food-header">
+                <div class="header-content">
+                    <span class="section-num">03</span>
+                    <h2 class="section-title">Taste of Ice City</h2>
+                    <p class="section-desc">The hearty hospitality of Northeast China, hidden in steaming hot delicacies
+                    </p>
+                </div>
+            </div>
+            <div class="food-circles">
+                <div class="food-circle-row">
+                    <div class="food-circle-item">
+                        <div class="circle-image" style="background-image: url('images/010.jpg')">
+                        </div>
+                        <div class="circle-name">Sweet & Sour Pork</div>
+                    </div>
+                    <div class="food-circle-item">
+                        <div class="circle-image" style="background-image: url('images/011.webp')">
+                        </div>
+                        <div class="circle-name">Harbin Red Sausage</div>
+                    </div>
+                    <div class="food-circle-item">
+                        <div class="circle-image" style="background-image: url('images/012.jpeg')">
+                        </div>
+                        <div class="circle-name">Iron Pot Stew</div>
+                    </div>
+                </div>
+                <div class="food-circle-row">
+                    <div class="food-circle-item">
+                        <div class="circle-image" style="background-image: url('images/013.jpg')">
+                        </div>
+                        <div class="circle-name">Madieer Popsicle</div>
+                    </div>
+                    <div class="food-circle-item">
+                        <div class="circle-image" style="background-image: url('images/014.jpg')">
+                        </div>
+                        <div class="circle-name">Northeast Dumplings</div>
+                    </div>
+                    <div class="food-circle-item">
+                        <div class="circle-image" style="background-image: url('images/015.jpg')">
+                        </div>
+                        <div class="circle-name">Chicken Stew with Mushrooms</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fifth Screen - Seasons (Circular Timeline) -->
+        <section class="fullscreen-section section-seasons" id="seasons">
+            <div class="seasons-container">
+                <div class="seasons-center">
+                    <span class="section-num">04</span>
+                    <h2 class="section-title">Four<br>Seasons</h2>
+                    <div class="center-circle">
+                        <div class="circle-content">
+                            <i class="fas fa-snowflake"></i>
+                            <span>Beauty All Year Round</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="season-orbit">
+                    <div class="season-node" data-season="winter" style="--angle: 0deg" data-img="images/019.jpg">
+                        <div class="node-content">
+                            <div class="node-image" style="background-image: url('images/019.jpg')">
+                            </div>
+                            <div class="node-text">
+                                <span class="season-name">Winter</span>
+                                <span class="season-desc">Ice & Snow Fairy Tale</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="season-node" data-season="spring" style="--angle: 90deg" data-img="images/016.jpg">
+                        <div class="node-content">
+                            <div class="node-image" style="background-image: url('images/016.jpg')">
+                            </div>
+                            <div class="node-text">
+                                <span class="season-name">Spring</span>
+                                <span class="season-desc">Lilac Blossoms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="season-node" data-season="summer" style="--angle: 180deg" data-img="images/017.jpg">
+                        <div class="node-content">
+                            <div class="node-image" style="background-image: url('images/017.jpg')">
+                            </div>
+                            <div class="node-text">
+                                <span class="season-name">Summer</span>
+                                <span class="season-desc">Cool Summer Retreat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="season-node" data-season="autumn" style="--angle: 270deg" data-img="images/018.jpeg">
+                        <div class="node-content">
+                            <div class="node-image" style="background-image: url('images/018.jpeg')">
+                            </div>
+                            <div class="node-text">
+                                <span class="season-name">Autumn</span>
+                                <span class="season-desc">Colorful Mountains</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Preview Modal -->
+        <div class="image-modal" id="imageModal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+                <img class="modal-image" id="modalImage" src="" alt="">
+                <div class="modal-caption" id="modalCaption"></div>
+            </div>
+        </div>
+
+        <!-- Sixth Screen - History & Culture -->
+        <section class="fullscreen-section section-history" id="history">
+            <div class="history-bg"></div>
+            <div class="content-wrapper">
+                <div class="history-content">
+                    <span class="section-num">05</span>
+                    <h2 class="section-title">History &<br>Culture</h2>
+                    <div class="history-text">
+                        <p class="history-desc">
+                            Harbin, a pearl embedded along the Songhua River, carries a century of historical
+                            vicissitudes and cultural fusion.
+                            In 1898, the construction of the Chinese Eastern Railway transformed this small fishing
+                            village into an international metropolis,
+                            where immigrants from over 20 countries including Russia, Jewish, and Poland gathered,
+                            leaving behind architectural treasures such as Saint Sophia Cathedral and Central Street.
+                            This is one of the earliest Chinese cities to embrace European civilization,
+                            and also China's Music City, birthplace of the nation's first symphony orchestra.
+                            From Jin Dynasty culture to ice and snow culture, from industrial powerhouse to tourism
+                            destination,
+                            Harbin tells the legend and dreams of a city with its unique multicultural charm.
+                        </p>
+                    </div>
+                    <div class="history-timeline">
+                        <div class="timeline-item">
+                            <span class="year">1898</span>
+                            <span class="event">Chinese Eastern Railway Construction</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">1903</span>
+                            <span class="event">Saint Sophia Cathedral Completed</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">1963</span>
+                            <span class="event">First Ice Lantern Festival</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2010</span>
+                            <span class="event">UNESCO City of Music</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <i class="fas fa-snowflake"></i>
+                        <span>HARBIN</span>
+                    </div>
+                    <p class="footer-quote">"A thousand miles of ice, ten thousand miles of snow"</p>
+                    <div class="footer-links">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2026 Harbin City Tourism Promotion</p>
+                    <p>Harbin City, Heilongjiang Province, China</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
